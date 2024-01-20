@@ -26,7 +26,11 @@ body {
   height: auto;
   background-color: #2a2a72;
   background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
-
+  transform: scale(0.75);
+	transform-origin: top left;
+	width: 133.333%; /* 100 / 0.75 */
+	height: 133.333%;
+	overflow-x: hidden;
 }
 
 header{
