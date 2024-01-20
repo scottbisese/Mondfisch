@@ -23,6 +23,11 @@
 	text-align: center;
 	background-color: #2a2a72;
 	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+	transform: scale(0.75);
+	transform-origin: top left;
+	width: 133.333%; /* 100 / 0.75 */
+	height: 133.333%;
+	overflow-x: hidden;
 }
 
 header {
@@ -80,6 +85,7 @@ a {
 #intro em {
 	font-weight: bold;
 }
+
 section {
 	float: right;
 	width: 42.5%;
@@ -203,6 +209,11 @@ a:active {
 	text-align: center;
 	background-color: #2a2a72;
 	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+	transform: scale(0.75);
+	transform-origin: top left;
+	width: 133.333%; /* 100 / 0.75 */
+	height: 133.333%;
+	overflow-x: hidden;
 }
 
 #sadBilly {
